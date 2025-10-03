@@ -6,5 +6,6 @@ function disemvowel(str) {
             accumulator.push(element);
         }
     })
+
     return accumulator.join("");
 }
